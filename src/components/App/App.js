@@ -1,12 +1,15 @@
-import React from 'react';
-import './App.css';
+import React, {Component} from 'react';
+import Header from '../Header/Header'
 
-function App() {
-  return (
-    <header>
-      Cabeçalho
-    </header>
-  );
+// The main app
+class App extends Component {
+  
+  // Renders all the shit
+  render(){
+    return (
+      <Header />
+    );
+  }
 }
 
 export default App;
