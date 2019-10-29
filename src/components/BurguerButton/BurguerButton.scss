@@ -1,0 +1,22 @@
+// Burguer component
+.burguer-button {
+  width: 30px;
+  height: 25px;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  background: transparent;
+
+
+  cursor: pointer;
+
+  > span,
+  &:before,
+  &:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+  }
+}
