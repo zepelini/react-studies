@@ -5,6 +5,7 @@
 @import './assets/style/tools/color-builder';
 @import './assets/style/tools/list-builder';
 @import './assets/style/tools/media-query';
+@import './assets/style/tools/grid-builder';
 
 // Normalize
 @import './assets/style/generic/normalize';
@@ -18,10 +19,11 @@
 @import './assets/style/objects/flex';
 @import './assets/style/objects/font';
 @import './assets/style/objects/text';
-
+@import './assets/style/objects/form';
 
 // Components
 @import './components/App/App.scss';
 @import './components/Header/Header.scss';
 @import './components/BurguerButton/BurguerButton.scss';
 @import './components/Menu/Menu.scss';
+@import './components/LoginForm/LoginForm.scss';

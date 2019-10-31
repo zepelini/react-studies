@@ -1,0 +1,12 @@
+// Mixin for grid builder
+@mixin grid-builder($size, $class-name, $css-property, $prefix) {
+
+    // Loop
+    @for $i from 1 through $size{
+
+        // Creates CSS Selector
+        .#{$class-name}-#{$i}{
+            #{$css-property}: #{$prefix} #{$i};
+        }
+    }
+};

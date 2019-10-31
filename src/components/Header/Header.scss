@@ -1,6 +1,7 @@
 // Header component
 .header {
-  padding: $half-space;
+  height: $menu-height;
+  padding: 0 $half-space;
   position: relative;;
 
   .logo{

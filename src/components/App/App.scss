@@ -1,0 +1,7 @@
+// APP Global classes
+.container{
+    
+}
+.container--full{
+    height: calc(100vh - #{$menu-height});
+}

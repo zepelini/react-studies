@@ -1,5 +1,11 @@
 .grid{
     display: grid;    
-    grid-template-columns: repeat(6, minmax(50px, 1fr) );
+    grid-template-columns: repeat($grid-max,  1fr);
     grid-column-gap: 20px;    
 }
+.grid-align-self-center{
+    align-self: center;
+}
+// Grid span
+@include grid-builder($grid-max, 'grid-start', 'grid-column-start', '');
+@include grid-builder($grid-max, 'grid-span', 'grid-column-end', 'span');

@@ -18,10 +18,9 @@
   }
 
   // List top padding
-  $list-top-paddng: 100px;
   ul{
-    padding-top: $list-top-paddng;
-    height: calc(100vh - #{$list-top-paddng});
+    padding-top: $menu-height;
+    height: calc(100vh - #{$menu-height});
   }
   a{
     display: block;

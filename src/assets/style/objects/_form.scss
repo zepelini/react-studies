@@ -1,0 +1,15 @@
+// Form classes
+.form{
+    .form-element-container,
+    .form-element-label,
+    .form-element{
+        display: block;  
+        width: 100%;
+    }
+    .form-element-container{
+        margin-bottom: $half-space;
+    }
+    .form-element{
+        padding: 10px;
+    }
+}
